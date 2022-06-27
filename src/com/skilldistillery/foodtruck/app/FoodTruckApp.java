@@ -48,6 +48,7 @@ public class FoodTruckApp {
 		}
 		boolean menu = true;
 		while (menu) {
+			
 
 			System.out.println("FoodTruck Rating Menu ");
 			System.out.println("Please enter a menu number.");

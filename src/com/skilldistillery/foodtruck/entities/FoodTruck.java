@@ -4,7 +4,6 @@ package com.skilldistillery.foodtruck.entities;
 // does not have a main
 public class FoodTruck {
 
-
 	
 
 	//have an array of up to five food trucks.
