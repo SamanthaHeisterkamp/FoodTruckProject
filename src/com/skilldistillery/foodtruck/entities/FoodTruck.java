@@ -5,7 +5,6 @@ package com.skilldistillery.foodtruck.entities;
 public class FoodTruck {
 
 
-	FoodTruck foodtruck = new FoodTruck();
 	
 
 	//have an array of up to five food trucks.
@@ -66,12 +65,15 @@ public class FoodTruck {
 
 	@Override
 	public String toString() {
-		String output = "FoodTruck [foodtruck=" + foodtruck + ", foodTruckName=" + foodTruckName + ", foodTruckId=" + foodTruckId
-				+ ", foodTruckMenu=" + foodTruckMenu + ", foodTruckRating=" + foodTruckRating + "]";
-	
+		String output = "FoodTruck Name: " + foodTruckName + "\n FoodTruck Id: " + foodTruckId + "\n FoodTruck Menu: "
+				+ foodTruckMenu + "\n Food Truck Rating: " + foodTruckRating;
+		
 		return output;
+	}
+
+
 	}
 	
 
-}
+
 	
