@@ -12,19 +12,21 @@ public class FoodTruck {
 	// unique numeric id, a name ("TacoRific", "Mediterranean Medic", etc.),
 	// food type ("Tacos", "Falafel", etc.), and a numeric rating.
 	private String foodTruckName;
-	private int foodTruckId;
 	private String foodTruckMenu;
 	private int foodTruckRating;
+	 int foodTruckId;
+	private static int newId = 1;
 	
 	
 	public FoodTruck() { // creating the no arc constructor (default constructor)
 	}
 
-	public FoodTruck(String foodTruckName, int foodTruckId, String foodTruckMenu, int foodTruckRating) { // entering
+	public FoodTruck(String foodTruckName, String foodTruckMenu, int foodTruckRating) { // entering
 																											// them in
 																											// order
 		this.foodTruckName = foodTruckName; // finishing the constructor
-		this.foodTruckId = foodTruckId;
+		this.foodTruckId = newId;
+		newId++;
 		this.foodTruckMenu = foodTruckMenu;
 		this.foodTruckRating = foodTruckRating;
 
@@ -39,13 +41,7 @@ public class FoodTruck {
 		this.foodTruckName = foodTruckName;
 	}
 
-	public int getFoodTruckId() {
-		return foodTruckId;
-	}
 
-	public void setFoodTruckId(int foodTruckId) {
-		this.foodTruckId = foodTruckId;
-	}
 
 	public String getFoodTruckMenu() {
 		return foodTruckMenu;
@@ -70,7 +66,10 @@ public class FoodTruck {
 		
 		return output;
 	}
-
+public void displayFoodTruck() {
+	String displayFoodTrucks = toString();
+	System.out.println(displayFoodTrucks);
+}
 
 	}
 	
