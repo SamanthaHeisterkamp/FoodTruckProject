@@ -1,10 +1,12 @@
 # FoodTruckProject
-
+Users can input and rate a list of food trucks, then view the average rating and the highest-rated truck. There is a defined class for a unique Id, a name, food type, and a rating 1-5. There is a separate class with a main method that starts the program.
 # Description
-
+The user is prompted to input the name, food type, and rating for up to five food trucks. For each food truck entered, a unique id is created, and added to the array. The truck id is automatically created and not entered by the user. Once the user has entered an amount of food trucks from 1-5, they can prompt to the main menu with "quit" or enter the full five trucks and pushed to the main menu. After the input is complete the user sees a menu that they can choose from. 1. listing all food trucks entered. 2. average rating of food trucks. 3. display the highest rated food truck. 4. quit the program. After choosing a menu item the user will see the menu again and choose another item until they choose to quit. 
 # Technologies Used
-Java 1.8 
-Eclipse
-Git/GitHub
-Terminal
+ * Java 1.8 
+ * Eclipse
+ * Git/GitHub
+ * Terminal
+ 
 # What I learned
+I solidified that I don't have a clear understanding of how everything works in tandem. I can talk about each topic but implementing it is a different story. I struggle with the User Stories and turning the wording into something that makes sense for the code that we are learning. Writing the code from scratch is a huge struggle and pushing through it, like in this project, didn't help me understand it any better. I felt like everything was really messy when writing it, so I know for the future, I need to find a clearer way to stay organized when writing code. I also need to review this past weeks topics to help have a better understanding of this homework. I do know that I am getting a little more confident in for loops, but am still a little hesitant on them. I have a clear understanding of switches and think that they are currently my favorite to implement in code. I enjoy coding just a little bit more when I can play around with it and customize it a little bit, like in this project, using Gordon Ramsay rating scale made me laugh every time I ran the code. So that helped me push through.
